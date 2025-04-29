@@ -1,0 +1,10 @@
+public class BooleanOperatorsExample {
+    public static void main(String[] args) {
+        boolean hasID = true;
+        boolean isAdult = false;
+
+        // && means AND, || means OR
+        System.out.println("Can enter club: " + (hasID && isAdult));
+        System.out.println("Can enter with guardian: " + (hasID || isAdult));
+    }
+}
